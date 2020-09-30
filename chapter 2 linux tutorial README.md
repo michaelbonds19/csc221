@@ -4,16 +4,16 @@ Activity 1:
 /bin - The location of several commonly used programs (some of which we will learn about in the rest of this tutorial.
 /usr/bin - Another location for programs on the system.
 
-ls /etc
+ls /etc:
 bash.bash_logout  fstab            hosts                mtab@          package-versions.txt  profile.d/  tigrc
 bash.bashrc       gitattributes    inputrc              nanorc         pkcs11/               protocols   vimrc
 DIR_COLORS        git-bash.config  install-options.txt  networks       pki/                  services
 docx2txt.config   gitconfig        msystem              nsswitch.conf  profile               ssh/
 
-ls /var/log
+ls /var/log:
 ls: cannot access '/var/log': No such file or directory
 
- ls /bin
+ ls /bin:
 '[.exe'*                      gobject-query.exe*              msys-heimbase-1.dll*          rnano.exe*
  addgnupghome*                gpg.exe*                        msys-heimntlm-0.dll*          runcon.exe*
  applygnupgdefaults*          gpg-agent.exe*                  msys-history8.dll*            rview.exe*
@@ -125,7 +125,7 @@ ls: cannot access '/var/log': No such file or directory
  gkill.exe*                   msys-hcrypto-4.dll*             rm.exe*
  glib-compile-schemas.exe*    msys-hdb-9.dll*                 rmdir.exe*
  
-  ls /usr/bin
+  ls /usr/bin:
 '[.exe'*                      gobject-query.exe*              msys-heimbase-1.dll*          rnano.exe*
  addgnupghome*                gpg.exe*                        msys-heimntlm-0.dll*          runcon.exe*
  applygnupgdefaults*          gpg-agent.exe*                  msys-history8.dll*            rview.exe*
