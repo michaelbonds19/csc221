@@ -1,1 +1,49 @@
+shell_examples.txt:
+>>> spam = "That is Alice's cat."
+
+>>> spam = 'Say hi to Bob\'s mother.'
+
+>>> print ("Hello there!\nHow are you?\nI\'m doing fine.")
+Hello there!
+How are you?
+I'm doing fine.
+
+>>> print (r'That is Carol\'s cat.')
+That is Carol\'s cat.
+
+ >>> spam = 'Hello, World!'
+
+In [4]: >>> spam[0]
+Out[4]: 'H'
+
+In [5]: >>> spam[4]
+Out[5]: 'o'
+
+In [6]: >>> spam[-1]
+Out[6]: '!'
+
+In [7]: >>> spam[0:5]
+Out[7]: 'Hello'
+
+In [8]: >>> spam[:5]
+Out[8]: 'Hello'
+
+In [9]: >>> spam[7:]
+Out[9]: 'World!'
+
+
+
+catnapping.py:
+ print('''Dear Alice,
+   ...:
+   ...: Eve's cat has been arrested for catnapping, cat burglary, and extortion.
+   ...:
+   ...: Sincerely,
+   ...: Bob''')
+Dear Alice,
+
+Eve's cat has been arrested for catnapping, cat burglary, and extortion.
+
+Sincerely,
+Bob
 
