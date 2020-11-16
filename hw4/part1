@@ -31,8 +31,6 @@ Out[8]: 'Hello'
 In [9]: >>> spam[7:]
 Out[9]: 'World!'
 
-
-
 catnapping.py:
  print('''Dear Alice,
    ...:
@@ -47,3 +45,10 @@ Eve's cat has been arrested for catnapping, cat burglary, and extortion.
 Sincerely,
 Bob
 
+how_are_you.py
+ >>> spam = 'Hello, world!'
+
+ >>> spam = spam.upper()
+
+ >>> spam
+ 'HELLO, WORLD!'
