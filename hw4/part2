@@ -1,1 +1,32 @@
+import pyperclip
+text = pyperclip.paste()
 
+* Lists of animals
+* Lists of aquarium life
+* Lists of biologists by author abbreviation
+* Lists of cultivars
+
+lines = text.split('lists of animals\n')
+for i in range(len(5)):    # loop through all indexes in the "lines" list
+    lines[i] = '*Pig ','*Horse', '*Cow','*Tiger', '* Zebra' + lines[i] # add star to each string in "lines" list
+    text = 'lists of animals\n'.join(lines)  # add star to each string in "lines" list
+
+lines = text.split('lists of aquarium life\n')
+for i in range(len(4)):
+    lines[i] = '*Guppy', '*African dwarf frog', '*Angelfish', '*Bee shrimp', '*Anubias barteri var. glabra' + lines[i]
+    text = 'lists of aquarium life\n'.join(lines)
+
+lines = text.split('lists of biologists by author abbreviation\n')
+for i in range(len(4)):
+    lines[i] = '* A.A.Cocucci', '*A.A.Eaton', '*Baas', '*C.A.Barber' + lines[i]
+    text = 'lists of biologists by author abbreviation\n'.join(lines)
+
+lines = text.split('lists of cultivars\n')
+for i in range(len(5)):
+    lines[i] = '*Apple', '*Banana', '*Cannabis', '*Grape', '*Pear' + lines[i]
+    text = 'lists of cultivars\n'.join(lines)
+
+if __name__ = '__main__':
+    main()
+
+pyperclip.copy(text)
