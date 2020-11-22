@@ -1,1 +1,4 @@
-
+1.read -p "Your name" name. I used this command to tell my name
+2. read -p "Your age" age. I used this for my age
+3. read -p "Your major" major. I used this for my major
+4. read -p "Your graduation year" year. I used this for my graduation year
