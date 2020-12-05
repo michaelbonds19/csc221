@@ -1,1 +1,32 @@
+from random import choice
 
+dirty_words = ["Laptop", "Apple", "IPhone", "Andriod", "Basketball", "Football", "Track", "Baseball", "Inspire", "Action"]
+final_words = ["Laptop", "Apple", "IPhone", "Andriod", "Basketball", "Football", "Track", "Baseball", "Inspire", "Action"]
+
+f = open("words.txt", "r")
+lines = f.readlines()
+
+def word_pick():
+    for x in range(50):
+        dirty_words.append(choice(lines).rstrip("\n"))
+
+def word_filter():
+    for word in dirty_words:
+    
+        if word[0].isupper() == True:
+            pass
+
+        elif word.isupper() == True:
+            pass
+
+        elif len(word) <= 4 or len(word) >= 14:
+            pass
+
+        else:
+            final_words.append(word)
+
+    del final_words[10:]
+
+word_pick()
+word_filter()
+print(final_words)
