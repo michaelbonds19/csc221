@@ -1,1 +1,33 @@
+from random import choice
+
+dirty_numbers_2 = ["11", "22", "33", "44", "55", "66", "77", "88", "99", "23"]
+final_numbers_2 = ["11", "22", "33", "44", "55", "66", "77", "88", "99", "23"]
+
+f = open("numbers_2.txt", "r")
+lines = f.readlines()
+
+def word_pick():
+    for x in range(50):
+        dirty_numbers_2.append(choice(lines).rstrip("\n"))
+
+def numbers_2_filter():
+    for word in dirty_numbers:
+    
+        if numbers_2[0].isupper() == True:
+            pass
+
+        elif numbers_2.isupper() == True:
+            pass
+
+        elif len(word) <= 4 or len(word) >= 14:
+            pass
+
+        else:
+            final_numbers_2.append(word)
+
+    del final_numbers[10:]
+
+numbers_2_pick()
+numbers_2_filter()
+print(final_numbers_2)
 
